@@ -1,0 +1,22 @@
+{
+  "name": "queue-media-processing-platform",
+  "version": "0.1.0",
+  "description": "A system designed to manage and process media files with an efficient and structured approach, ensuring that they are executed in an organized manner.",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "keywords": [],
+  "author": "Dominik Hryshaiev <domhryshaiev@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/domhhv/queue-media-processing-platform.git"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.1",
+  "devDependencies": {
+    "turbo": "^2.9.6"
+  }
+}
