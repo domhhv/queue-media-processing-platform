@@ -1,0 +1,10 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.4.13/schema.json",
+	"root": false,
+	"extends": ["@my-scope/biome-config/base", "@my-scope/biome-config/next-js"],
+	"css": {
+		"parser": {
+			"tailwindDirectives": true
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "name": "database",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsup src/* --watch",
+    "build": "echo 'Add build script here'",
+    "test": "echo 'Add test script here'",
+    "lint": "echo 'Add lint script here'",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@my-scope/biome-config": "workspace:^",
+    "@my-scope/typescript-config": "workspace:*",
+    "@biomejs/biome": "2.4.13",
+    "@types/node": "^25.6.0",
+    "prisma": "^7.8.0",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "dotenv": "^17.4.2",
+    "pg": "^8.20.0"
+  }
+}

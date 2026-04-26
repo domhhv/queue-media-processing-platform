@@ -6,7 +6,10 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "biome:check": "turbo run biome:check",
+    "biome:write": "turbo run biome:write",
+    "check-types": "turbo run check-types"
   },
   "keywords": [],
   "author": "Dominik Hryshaiev <domhryshaiev@gmail.com>",
@@ -15,8 +18,9 @@
     "url": "https://github.com/domhhv/queue-media-processing-platform.git"
   },
   "license": "ISC",
-  "packageManager": "pnpm@10.33.1",
+  "packageManager": "pnpm@10.33.2",
   "devDependencies": {
+    "@biomejs/biome": "2.4.13",
     "turbo": "^2.9.6"
   }
 }
